@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+    
+#corpo{
+    background-color: #63A44C;
+    display: flex;
+}
+
+.logo{
+    width: 900px;
+    height: 900px;
+    margin-left: 100px;
+
+}
+
+
+.texto{
+    color: white;
+    margin-top: 200px;
+    margin-left: 100px;
+    width: 500px;
+    height: 150px;
+    padding: 2px;
+}
+
+h1{
+    font-size: 32px;
+}
+
+input{
+    font-size: 14px;
+    border-radius: 14px;
+    height: 40px;
+}
+#ppp{
+    font-style: bold;
+}
+
+
+.btn{
+    font-size: 40px;
+    border-radius: 14px;
+    border-color: none;
+    color: white;
+    background-color: rgb(169, 231, 76);
+    padding: 9px 160px;
+
+}
+
+p{
+    justify-content: center;
+    padding: 3px 8px;
+    font-size: 16px;
+}
+u{
+    color: rgb(176, 233, 90);;
+    
+}
+
