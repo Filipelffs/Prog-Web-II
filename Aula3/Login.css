@@ -1,9 +1,10 @@
 body{
-    font-family: Arial, Helvetica, sans-serif
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-    
 #corpo{
-    background-color: #63A44C;
+    background-color: #63A44D;
     display: flex;
 }
 
@@ -25,36 +26,49 @@ body{
 }
 
 h1{
-    font-size: 32px;
+    font-size: 32px; 
 }
 
-input{
-    font-size: 14px;
-    border-radius: 14px;
-    height: 40px;
-}
-#ppp{
+.e{
+    font-family: "poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
     font-style: bold;
+}
+
+
+input
+{
+    font-size: 14px;
+    border-radius: 12px;
+    height: 40px;
+    border: none;
+    padding: 0 12px;
+    background-color: #f7eef5;
 }
 
 
 .btn{
     font-size: 40px;
     border-radius: 14px;
-    border-color: none;
+    border: none;
     color: white;
-    background-color: rgb(169, 231, 76);
-    padding: 9px 160px;
+    background-color: #b0d13c;
+    padding: 5px 170px;
 
 }
 
+.btn:hover{
+    color: #1e2e18;
+    border: #1e2e18;
+}
 p{
-    justify-content: center;
-    padding: 3px 8px;
+    padding: 3px 70px;
     font-size: 16px;
+    
 }
-u{
-    color: rgb(176, 233, 90);;
+a{
+    color: #b0d13c;
     
 }
 

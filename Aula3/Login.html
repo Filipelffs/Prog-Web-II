@@ -4,31 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Login.css"> 
+    <link rel="stylesheet" href="Login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Atv2</title>
 </head>
 
 <body id="corpo">
-    
+
     <img src="logo.jpg" alt="logo" class="logo">
 
     <div class="texto">
-    <h1>Bem vindo ao PedeAgro!</h1>
-    <h1 id="ppp">Faça o seu Login</h1>
-    <br>
+        <h1>Bem vindo ao PedeAgro!</h1>
+        <h1 class="e">Faça o seu Login</h1>
+        <br>
 
-    <form action="get">
-        <label for="email">Email</label><br>
-        <input type="email" id="email" name="email" placeholder="Insira seu email" size="56px"><br><br>
-        <label for="senha">Senha</label><br>
-        <input type="password" id="senha" name="senha" placeholder="Insira sua senha..." size="56px"><br><br><br>
-        <button class="btn">Entrar</button>
+        <form action="Inicio.html"  method="post">
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Insira seu email" size="56px"><br><br>
+            <label for="senha">Senha</label><br>
+            <input type="password" id="senha" name="senha" placeholder="Insira sua senha..." size="56px"><br><br><br>
+            <button class="btn">Entrar</button>
 
-    </form>
+        </form>
 
-    <p>Ainda não tem uma conta? <u>Cadastre-se</u></p>
+        <p>Ainda não tem uma conta? <a href="#">Cadastre-se</a></p>
     </div>
- 
+
 </body>
 
 </html>
